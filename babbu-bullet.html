@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BABBU BULLET – Bike Repairing</title>
+<style>
+:root{--bg:#fff8f0;--surface:#ffffff;--text:#1c1917;--muted:#57534e;--accent:#d9480f;--accent-text:#ffffff;--dark:#1c1917;--border:#e7e0d8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141211;--surface:#1f1c1a;--text:#f5f0eb;--muted:#b8aea5;--accent:#f76707;--accent-text:#141211;--dark:#000;--border:#332e2b}}
+:root[data-theme="dark"]{--bg:#141211;--surface:#1f1c1a;--text:#f5f0eb;--muted:#b8aea5;--accent:#f76707;--accent-text:#141211;--dark:#000;--border:#332e2b}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{background:var(--dark);color:#fff;padding:14px 0}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{font-weight:800;letter-spacing:1px;font-size:1.15rem}
+.logo span{color:var(--accent)}
+header a.call{background:var(--accent);color:var(--accent-text);padding:8px 16px;border-radius:999px;text-decoration:none;font-weight:700;font-size:.9rem}
+.hero{background:var(--dark);color:#fff;padding:64px 0 72px;text-align:center}
+.hero h1{font-size:clamp(2.2rem,8vw,4rem);margin:0 0 8px;letter-spacing:2px;line-height:1.1}
+.hero h1 span{color:var(--accent)}
+.hero p{max-width:520px;margin:12px auto 28px;color:#d6cfc8;font-size:1.05rem}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);padding:13px 28px;border-radius:10px;text-decoration:none;font-weight:700;margin:4px}
+.btn.alt{background:transparent;border:2px solid #fff;color:#fff}
+section{padding:56px 0}
+h2{font-size:1.7rem;margin:0 0 8px}
+.sub{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px}
+.card .ic{font-size:1.8rem}
+.card h3{margin:8px 0 4px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.92rem}
+.why{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.why ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.why li::before{content:"✔ ";color:var(--accent);font-weight:700}
+.contact .card p{color:var(--text);font-size:1rem}
+.contact a{color:var(--accent)}
+footer{background:var(--dark);color:#b8aea5;text-align:center;padding:22px 0;font-size:.88rem}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="logo">BABBU <span>BULLET</span></div>
+<a class="call" href="tel:+919466590186">📞 Call Now</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+<h1>BABBU <span>BULLET</span></h1>
+<div style="font-weight:600;letter-spacing:3px;font-size:.9rem;color:var(--accent)">BIKE REPAIRING</div>
+<p>Honest, fast and affordable repair for your bike. From a small puncture to a full engine job, we keep you on the road.</p>
+<a class="btn" href="tel:+919466590186">Call for Repair</a>
+<a class="btn alt" href="#services">Our Services</a>
+</div></div>
+
+<section id="services"><div class="wrap">
+<h2>Our Services</h2>
+<p class="sub">Everything your bike needs under one roof.</p>
+<div class="grid">
+<div class="card"><div class="ic">🔧</div><h3>General Service</h3><p>Full checkup, tuning and oil change.</p></div>
+<div class="card"><div class="ic">⚙️</div><h3>Engine Repair</h3><p>Engine work, overhauling and fault fixing.</p></div>
+<div class="card"><div class="ic">🛑</div><h3>Brake &amp; Clutch</h3><p>Brake pads, clutch plates and cables.</p></div>
+<div class="card"><div class="ic">🔋</div><h3>Electrical Work</h3><p>Battery, lights, wiring and self-start.</p></div>
+<div class="card"><div class="ic">🧽</div><h3>Wash &amp; Polish</h3><p>Clean wash to make it shine like new.</p></div>
+</div></div></section>
+
+<section class="why"><div class="wrap">
+<h2>Why Choose Us</h2>
+<p class="sub">Trusted by riders who care about their bikes.</p>
+<ul>
+<li>Experienced mechanic</li>
+<li>Fair and clear pricing</li>
+<li>Quality spare parts</li>
+<li>Quick, on-time delivery</li>
+</ul></div></section>
+
+<section class="contact"><div class="wrap">
+<h2>Contact Us</h2>
+<p class="sub">Visit the shop or call to book your bike.</p>
+<div class="grid">
+<div class="card"><h3>📞 Phone</h3><p><a href="tel:+919466590186">+91 94665 90186</a></p></div>
+<div class="card"><h3>📍 Address</h3><p>Bhagwan Shri Parshuram Chowk,<br>Near Durga Mandir,<br>Fatehabad, Haryana 125050</p></div>
+<div class="card"><h3>🕘 Timings</h3><p>Monday – Saturday<br>8:00 AM – 7:00 PM<br>Sunday: Closed</p></div>
+</div></div></section>
+
+<footer>© <span id="y"></span> BABBU BULLET – Bike Repairing. All rights reserved.</footer>
+<script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
